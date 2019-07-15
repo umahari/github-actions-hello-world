@@ -1,7 +1,3 @@
-action "action a" {
-  uses = "./action-a/"
-}
-
 workflow "Text me when urgent issues are opened" {
   resolves = ["Hello World"]
   on = "issues"
@@ -10,3 +6,4 @@ workflow "Text me when urgent issues are opened" {
 action "Hello World" {
   uses = "./action-a"
 }
+
