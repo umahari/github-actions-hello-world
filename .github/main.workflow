@@ -1,9 +1,9 @@
-workflow "Text me when urgent issues are opened" {
+workflow "HelloWorld on issues" {
   resolves = ["Hello World"]
   on = "issues"
 }
 
 action "Hello World" {
-  uses = "./action-a"
+  uses = "./actions/hello-world/"
 }
 
