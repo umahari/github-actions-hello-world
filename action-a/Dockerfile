@@ -1,9 +1,8 @@
 FROM debian:9.5-slim
 
 LABEL "com.github.actions.name"="Hello World"
-LABEL "com.github.actions.description"="Write arguments to the standard output"
-LABEL "com.github.actions.icon"="mic"
-LABEL "com.github.actions.color"="purple"
+LABEL "com.github.actions.description"="Output 'Hello, World'"
+LABEL "com.github.actions.color"="green"
 
 LABEL "repository"="http://github.com/carimatics/github-actions-hello-world"
 LABEL "homepage"="http://github.com/carimatics"
