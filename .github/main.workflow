@@ -4,6 +4,5 @@ workflow "HelloWorld on issues" {
 }
 
 action "Hello World" {
-  uses = "./actions/hello-world/"
+  uses = "./actions/hello-world"
 }
-
