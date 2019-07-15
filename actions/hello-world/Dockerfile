@@ -2,7 +2,7 @@ FROM alpine:3.10.1
 
 LABEL "com.github.actions.name"="Hello World"
 LABEL "com.github.actions.description"="Opuput Hello World"
-LABEL "com.github.actions.icon"="coffee"
+LABEL "com.github.actions.icon"="sun"
 LABEL "com.github.actions.color"="gray-dark"
 
 LABEL "repository"="http://github.com/carimatics/github-actions-hello-world"
