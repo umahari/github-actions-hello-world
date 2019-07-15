@@ -2,12 +2,11 @@ action "action a" {
   uses = "./action-a/"
 }
 
-workflow "Hello wrold" {
-  on = "push"
+workflow "Text me when urgent issues are opened" {
   resolves = ["Hello World"]
+  on = "issues"
 }
 
 action "Hello World" {
   uses = "./action-a"
-  args = "Hello World"
 }
